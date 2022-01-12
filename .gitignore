@@ -1,0 +1,7 @@
+node_modules/
+node/*
+npm/cache/*
+yarn.lock
+/src/statsMsgId
+/src/fhm-marketcap-bot.log
+/src/fhm-marketcap-bot.pid
