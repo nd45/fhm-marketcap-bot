@@ -65,7 +65,7 @@ const updatePriceBotDisplay = async () => {
             if (oldPrice !== moonRiverMetrics.price) {
                 oldPrice = moonRiverMetrics.price;
 
-                await guildMember.setNickname("$" + metrics.ftm.globalMarketcap);
+                await guildMember.setNickname(metrics.ftm.globalMarketcap);
             }
 
         }
